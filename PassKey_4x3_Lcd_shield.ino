@@ -13,8 +13,7 @@ char keys[ROWS][COLS] = {
   {'7','8','9',},
   {'*','0','#',}
 };
-// Connect keypad ROW0, ROW1, ROW2 and ROW3 to these Arduino pins.
-//byte rowPins[ROWS] = {5, 6, 7, 8}; //connect to the row pinouts of the keypad
+
 byte rowPins[ROWS] = {0, 1, 2, 3}; //connect to the row pinouts of the keypad
 byte colPins[COLS] = {11, 12, 13}; //connect to the column pinouts of the keypad
 const int buttonPin = A5;
